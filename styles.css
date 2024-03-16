@@ -1,0 +1,164 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+position: relative;
+background-image: url("data:image/jpeg;base64,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");
+background-size: cover;
+background-position:center;
+background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    
+}
+.panel{
+    position: fixed;
+    width: 40%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(110, 110, 110, 110, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    z-index: 1;
+    padding: 3em 2em;
+}
+.left-panel {
+    padding: 50px;
+    text-align: left;
+    text-shadow: black;
+    box-shadow:inset;
+}
+.left-panel h1{
+    text-decoration: double;
+    text-decoration: dashed black;
+    text-shadow: black;
+}
+
+.right-panel {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 32% ; /* Half screen width */
+    height: 40%; /* Half screen height */
+    color: black;
+    margin-left: 0%;
+    padding: 10px;
+    margin: 10px;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange items horizontally */
+    align-items: center; /* Center items vertically */
+    background: rgba(110, 110, 110, 110, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    z-index: 1;
+    padding: 3em 2em;
+}
+
+/* Adjustments for weather container */
+
+
+.weather-info {
+    margin-bottom: 10px;
+}
+
+
+    
+    /* Adjustments for weather container */
+   
+    
+    .weather-info {
+        margin-bottom: 10px;
+    }
+    
+
+input[type="search"] {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+/* styles.css */
+
+/* Add this to style each weather info item */
+.weather-info {
+    margin-bottom: 10px; /* Adjust as needed */
+    font-size: 18px; /* Adjust as needed */
+}
+
+/* Rest of your CSS */
+
+#weather-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    opacity: 10;
+}
+.panel ul{
+    padding: 0 0 1em 0;
+    margin: 2em 0;
+    border-bottom: 1px black solid;
+}
+
+.panel ul li{
+    color: black;
+    margin: 2.5em 0;
+}
+
+.panel ul h4{
+    margin: 3em 0;
+}
+
+
+.details li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 800px) {
+    .left-panel,.panel, .container{
+        position: relative;
+        width: 100%;
+        top: initial;
+    }
+}
+
+
+
+.animated-text {
+    font-size: 24px;
+    color: transparent;
+    background-image: linear-gradient(to right, #ff0000, #ff8400, #fffb00, #36ff00, #00fffd, #000cff, #ba00ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+
+@media screen and (max-width: 500px) {
+    html{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-height: 300px) {
+    .weather-app{
+        min-height: 400em;
+    }
+}
+
+
+/* Add more styles as needed */
